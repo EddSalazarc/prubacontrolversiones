@@ -1,46 +1,28 @@
-# 🔒 Archivos sensibles
-.env
-.env.* 
-
-# 📦 Dependencias
+# Ignorar node_modules (carpeta de dependencias)
 node_modules/
 
-# 🚀 Builds de producción
+# Ignorar archivos de entorno y configuración local
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de build/producción (si usas Vue CLI o similar)
 dist/
 build/
 
-# ⚙️ Archivos temporales del sistema
-.DS_Store
-Thumbs.db
-
-# 🐛 Logs
+# Ignorar logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# 📁 Editor y sistema operativo
+# Ignorar configuraciones locales de editores
 .vscode/
 .idea/
-*.swp
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
-# 🧪 Cobertura de pruebas
-coverage/
-
-# ⚙️ PM2 (si usas para el backend)
-pids
-*.pid
-*.seed
-
-# 💡 TypeScript
-*.tsbuildinfo
-
-# 🔐 Certificados locales
-*.pem
-*.key
-*.crt
-
-# ⚙️ Git LFS (si lo usas)
-*.psd
-*.mp4
-*.zip
-*.rar
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
