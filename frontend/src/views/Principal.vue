@@ -1,5 +1,5 @@
 <template>
-    <h1>ESTA EL PAGINA PRINICIPAL <br>🗣️🗣️🗣️</h1>
+    <h1>ESTA EL  PAGINA PRINICIPAL <br>🗣️🗣️🗣️</h1>
     <span></span>
 
 </template>

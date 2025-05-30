@@ -5,7 +5,7 @@
    
     <h2>Formulario</h2>
     <form @submit.prevent="handleSubmit">
-      <label for="email">Correo electrónico:</label>
+      <label for="email">Correo electrónico: esto es un mensaje bomba</label>
       <input
         id="email"
         v-model="email"
