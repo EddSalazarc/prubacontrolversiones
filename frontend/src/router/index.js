@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import primera from '../views/PrimeraVentana.vue';
 import segunda from '@/views/SegundaVentana.vue';
 import inicio  from '@/views/Principal.vue';
-
+///PRUEBA DEL CHAMBEO
 const routes = [
   {
     path:'/',component:inicio,
