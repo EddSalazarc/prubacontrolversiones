@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import primera from '../views/PrimeraVentana.vue';
 import segunda from '@/views/SegundaVentana.vue';
-import inicio from '@/views/principal.vue';
+import inicio  from '@/views/Principal.vue';
 
 const routes = [
   {
